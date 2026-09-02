@@ -1,1 +1,5 @@
+# Core — required
+# (backtest.py and the gann/ package use only the Python standard library)
 
+# Optional — only needed if you use gann/planetary.py for real planetary longitudes
+skyfield>=1.47
